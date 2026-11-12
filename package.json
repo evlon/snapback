@@ -1,0 +1,16 @@
+{
+  "name": "snapback",
+  "version": "0.1.0",
+  "private": true,
+  "description": "目录的「后悔药」：内容寻址增量快照 + 一键回滚 + 校验修复 + 删除护栏",
+  "type": "module",
+  "bin": {
+    "snapback": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
